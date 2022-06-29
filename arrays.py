@@ -12,8 +12,8 @@ class Array:
     def __str__(self):
         return str(self.items)
 
-    def __iter__(Self):
-        return iter(Self.items)
+    def __iter__(self):
+        return iter(self.items)
 
     def __getitem__(self, index):
         return self.items[index]
